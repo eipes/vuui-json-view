@@ -1,4 +1,4 @@
-# vue-json-view
+# vuui-json-view
 
 ## Installation
 
@@ -33,12 +33,15 @@ export default {
 }
 ```
 
-![demo](http://imgs.iunote.com/61BBMss.jpg)
 ```html
 <div>
   <json-view :json="jsonSource"></json-view>
 </div>
 ```
+
+result:
+
+![demo](http://imgs.iunote.com/61BBMss.jpg)
 
 ## Changelog
 * 1.0.0: Initial Release

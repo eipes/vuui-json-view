@@ -3,12 +3,34 @@
 ## Installation
 
 ```shell
-npm install vue-json-view
+npm install vuui-json-view
 ```
 
 ## Usage
 ```javascript
-import JsonView from "vue-json-view"
+import JsonView from "vuui-json-view"
+
+export default {
+    data () {
+        return {
+            jsonSource: [
+                {
+                    a: 111,
+                    b: 'bbb',
+                    c: {
+                        c1: 'c1',
+                        c2: [1, 2, 3]
+                    }
+                },
+                2,
+                3
+            ]
+        }
+    },
+    components: {
+        JsonView
+    }
+}
 ```
 
 

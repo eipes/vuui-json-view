@@ -1,6 +1,6 @@
 {
   "name": "vuui-json-view",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A JSON string view component made for Vue.js",
   "main": "index.js",
   "scripts": {

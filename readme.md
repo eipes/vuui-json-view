@@ -3,7 +3,7 @@
 ## Installation
 
 ```shell
-npm install vuui-json-view
+npm i --save-dev vuui-json-view
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ export default {
 }
 ```
 
-
+![demo](http://imgs.iunote.com/61BBMss.jpg)
 ```html
 <div>
   <json-view :json="jsonSource"></json-view>

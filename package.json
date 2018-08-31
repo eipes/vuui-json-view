@@ -1,0 +1,15 @@
+{
+  "name": "vuui-json-view",
+  "version": "1.0.0",
+  "description": "A JSON string view component made for Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue json view",
+    "vue json tree"
+  ],
+  "author": "Seth Cheng",
+  "license": "ISC"
+}
